@@ -12,6 +12,7 @@
 		9F8F370E1F265D1F00C8B922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F370C1F265D1F00C8B922 /* Main.storyboard */; };
 		9F8F37101F265D1F00C8B922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F370F1F265D1F00C8B922 /* Assets.xcassets */; };
 		9F8F37131F265D1F00C8B922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F37111F265D1F00C8B922 /* LaunchScreen.storyboard */; };
+		9F8F371B1F2672C200C8B922 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F371A1F2672C200C8B922 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9F8F370F1F265D1F00C8B922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8F37121F265D1F00C8B922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8F37141F265D1F00C8B922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8F371A1F2672C200C8B922 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9F8F37081F265D1F00C8B922 /* AppDelegate.swift */,
 				9F8F370A1F265D1F00C8B922 /* ViewController.swift */,
 				9F8F370C1F265D1F00C8B922 /* Main.storyboard */,
+				9F8F371A1F2672C200C8B922 /* EmojiTableViewController.swift */,
 				9F8F370F1F265D1F00C8B922 /* Assets.xcassets */,
 				9F8F37111F265D1F00C8B922 /* LaunchScreen.storyboard */,
 				9F8F37141F265D1F00C8B922 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8F370B1F265D1F00C8B922 /* ViewController.swift in Sources */,
+				9F8F371B1F2672C200C8B922 /* EmojiTableViewController.swift in Sources */,
 				9F8F37091F265D1F00C8B922 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +320,7 @@
 				9F8F37191F265D1F00C8B922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
