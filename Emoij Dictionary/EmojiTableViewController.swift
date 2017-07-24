@@ -26,9 +26,12 @@ var emojis = ["😀","😃","😄","💩","👩‍💻","🎧","🎼"]
     }
 
     // MARK: - Table view data source
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       let emojiVC = segue.destination as! emojiViewController
+        emojiVC.emoji = sender as! String
+    }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "big", sender: nil)
+        performSegue(withIdentifier: "big", sender: emojis[indexPath.row])
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
