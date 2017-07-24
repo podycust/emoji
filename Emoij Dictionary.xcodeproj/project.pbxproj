@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9F8F37091F265D1F00C8B922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F37081F265D1F00C8B922 /* AppDelegate.swift */; };
-		9F8F370B1F265D1F00C8B922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F370A1F265D1F00C8B922 /* ViewController.swift */; };
 		9F8F370E1F265D1F00C8B922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F370C1F265D1F00C8B922 /* Main.storyboard */; };
 		9F8F37101F265D1F00C8B922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F370F1F265D1F00C8B922 /* Assets.xcassets */; };
 		9F8F37131F265D1F00C8B922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F37111F265D1F00C8B922 /* LaunchScreen.storyboard */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		9F8F37051F265D1F00C8B922 /* Emoij Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoij Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8F37081F265D1F00C8B922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F8F370A1F265D1F00C8B922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F8F370D1F265D1F00C8B922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F8F370F1F265D1F00C8B922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8F37121F265D1F00C8B922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				9F8F37081F265D1F00C8B922 /* AppDelegate.swift */,
-				9F8F370A1F265D1F00C8B922 /* ViewController.swift */,
 				9F8F370C1F265D1F00C8B922 /* Main.storyboard */,
 				9F8F371A1F2672C200C8B922 /* EmojiTableViewController.swift */,
 				9F8F370F1F265D1F00C8B922 /* Assets.xcassets */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8F370B1F265D1F00C8B922 /* ViewController.swift in Sources */,
 				9F8F371B1F2672C200C8B922 /* EmojiTableViewController.swift in Sources */,
 				9F8F37091F265D1F00C8B922 /* AppDelegate.swift in Sources */,
 			);
