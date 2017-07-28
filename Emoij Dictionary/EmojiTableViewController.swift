@@ -29,6 +29,7 @@ var emojis = ["😀","😃","😄","💩","👩‍💻","🎧","🎼"]
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        let emojiVC = segue.destination as! emojiViewController
         emojiVC.emoji = sender as! String
+       
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "big", sender: emojis[indexPath.row])

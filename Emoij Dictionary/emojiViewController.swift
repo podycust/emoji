@@ -10,6 +10,7 @@ import UIKit
 
 class emojiViewController: UIViewController {
 
+    @IBOutlet weak var emojidef: UILabel!
     @IBOutlet weak var e: UILabel!
     
     var emoji = ""
@@ -17,6 +18,17 @@ class emojiViewController: UIViewController {
         super.viewDidLoad()
 print(emoji)
         e.text? = emoji
+        if emoji == "💩" {
+            emojidef.text = "A Poop Emoji"
+        }
+        
+        if emoji == "😀"{
+            emojidef.text = "Simley Face"
+        }
+        
+        if emoji == "🎧"{
+            emojidef.text = "Headphones"
+        }
         // Do any additional setup after loading the view.
     }
 
